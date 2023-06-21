@@ -12,11 +12,10 @@ ul{
 
 .ulstilo{
     display: flex;
-    padding: 0px;
     gap: 40px;
     font-size: 16px;
     font-family: 'Gruppo', sans-serif;
-    font-style: oblique;
+    font-style: italic;
     font-weight: bold;
     text-align: center;
 }
@@ -25,7 +24,7 @@ ul{
 
 .navbar{
     display: flex;
-    background-color: #fbffc0;
+    background-color: #fbffc09c;
     border-radius: 1rem;
     justify-content: space-around;
     align-items: center; 
