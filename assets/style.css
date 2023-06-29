@@ -1,0 +1,199 @@
+/* stilo de header completo */
+
+header {
+  background: var(--navcolor);
+  display: flex;  
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  height: 65px;
+  padding: 0px 40px 0px 40px;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.logo {
+  height: 100%;
+}
+.cart-icon {
+  height: 40px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.navbar, 
+.navbar-list {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.navbar {
+  gap: 150px;
+}
+
+.navbar-list {
+  gap: 50px;
+}
+
+.navbar-list li:first-child > a {
+  font-weight: 700;
+}
+
+
+.navbar-list a {
+  color: var(--textnav);
+  font-weight:400;
+  font-size: 18px;
+}
+
+/* stilo de seccion 1 y hero cards mas info  */
+
+main {
+  background: var(--background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #131415;
+  width: 100%;
+}
+
+  #hero {
+  padding: 70px 0;
+  margin-top: 65px;
+  display: flex;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+
+  .hero-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 40%;
+}
+  .hero-info h1 {
+  text-align: center;
+  font-size: 35px; 
+  font-weight: 700;
+  color: var(--text-tittle);   
+}
+  .hero-info p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+  .hero-info p span {
+  font-weight: 600;
+}
+  .hero-info a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--textbutton);
+  font-size: 18px;
+  font-weight: 500;
+  width: 120px;
+  padding: 8px;
+  border-radius: 16px;
+  background: var(--button);
+
+}
+
+  .hero-card {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  width: 350px;
+  height: 300px;
+  gap: 30px;
+  background-color: var(--bgcard);
+  border-radius: 16px;
+}
+
+  .hero-card-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.hero-card-info h3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.container img {
+  width: 100%;
+}
+
+  
+/* seccion 2 card servicios */
+
+#info-servicios {
+  padding: 70px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  gap: 70px;
+}
+
+#info-servicios h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--text-tittle);
+}
+
+.card-servicios-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card-servicios {
+  background: var(--bgcardservicios);
+  border-radius: 16px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+}
+.card-servicios img {
+  width: 80px;
+  height: 80px;
+}
+.card-servicios p {
+  justify-content: center;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.card-servicios h4 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}

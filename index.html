@@ -3,31 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="base.css">
-    
-    <title>Landing Page US</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/base.css">
+    <title>U.S Solutions</title>
 </head>
+
 <body>
+
     <header>
-        <nav class="navbar">
-            
-            <div class="logo">
-                 <img
-                    src="./img/logous.png" alt="logo"
-                    height="60px" width="60px" >
-            </div>
-        
-            <div>
-                <ul class="ulstilo">
-                    <li><a href="#">    Home    </a></li>
-                    <li><a href="#">    Servicios   </a></li>
-                    <li><a href="#">    Nosotros    </a></li>
-                </ul> 
+        <img src="./assets/img/logous.png" alt="logo"
+            class="logo">
+        <nav class="navbar"> 
+            <ul class="navbar-list">
+                <li><a href="#">    Home    </a></li>
+                <li><a href="#">    Servicios    </a></li>
+                <li><a href="#">    Productos    </a></li>
+                <li><a href="#">    Nosotros    </a></li>
+            </ul>
+            <img src="./assets/img/cart.png" alt="cart"
+            class="cart-icon">
+        </nav> 
+    </header>
+
+<main>
+    <section id="hero">
+        <div class="hero-info">
+            <h1>
+                Soluciones en tecnologia para tu hogar a un click
+            </h1>
+            <p>
+                En <span>U.Solutions</span> nos especializamos en asesorar a nuestros clientes en lo mejor para la tecnologia de tu hogar.
+                Brindamos servicio en reparacion y mantenimiento de computadoras, o te ayudamos a elegir lo mas optimo para entretenimiento o productividad.
+            </p>
+            <a href="#">Consultanos!</a>
+        </div>
+
+
+        <div class="hero-card">    
+            <div class="container">
+            <img src="./assets/img/pc-gaming2.png" alt="imagen de pc">
+        </div>
+            <div class="hero-card-info">
+                <div class="container">    
+                    <img src="./assets/img/service.png" alt="imagen de joystick">
+                </div>
+                    <h3>
+                        Armamos tu PC a medida costo-calidad
+                    </h3>  
+            </div>       
+        </div>       
+    </section>
+
+    <section id="info-servicios">
+
+        <h2>Te ayudamos a elegir justo lo que necesitas</h2>
+
+        <div class="card-servicios-container">
+
+            <div class="card-servicios">
+                <img src="./assets/img/router.png" alt="imagen de router">
+                <h4>Conexion!</h4>
+                <p>Ofrecemos dispositivos de red para tu hogar o PYME y te recomendamos las mejores marcas</p>
             </div>
 
-        </nav>
-    </header>
+            <div class="card-servicios">
+                <img src="./assets/img/laptop.png" alt="imagen de laptop">
+                <h4>Tu proxima compañera de trabajo o estudio</h4>
+                <p>Rompe ese diseño grafico o saca tu MVP con el maximo de FPS</p>
+            </div>
+
+            <div class="card-servicios">
+                <img src="./assets/img/perifericos.png" alt="perifericos">
+                <h4>Mandos Esports o mucho RGB</h4>
+                <p>Primeras marcas para competencias y precio-calidad a tu gusto</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+</main>
+ 
+
 </body>
 </html>
