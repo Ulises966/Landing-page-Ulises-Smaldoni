@@ -9,14 +9,18 @@
   list-style-type: none;
 }
 :root {
-  --background: linear-gradient(#FFFFF0, #FFFFE0); 
+  --background: linear-gradient(#ffffff, #ffffe2); 
   
   --navcolor: #FFFDD0;
-  /* --textnav: #018925; */
   --textnav: #00563B;
-  --bgcard: #ACE1AF;
+  --bgcard: #fff2bc;
   --text-tittle: #00563B;
   --button: #6F00FF;
   --textbutton: #ffffff;
-  --bgcardservicios: #D0F0C0;
+  --bgcardservicios: #e5ffd7;
+  --text-service: green;
+  --bg-footer: #ffffe2;
+  --text-footer: #848c92;
+  --bg-card-prod: #ffffec;
+  --text-price: rgb(0, 151, 0);
 }
