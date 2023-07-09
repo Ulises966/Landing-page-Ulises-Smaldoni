@@ -143,7 +143,7 @@
 
 @media (max-width: 768px) {
   .navbar {
-    gap: 120px;
+    gap: 30px;
   }
 
   #hero {
@@ -183,5 +183,153 @@
     gap: 30px;
   }
 }
+
+@media (max-width: 576px) {
+
+  .logo {
+    height: 50%;
+}
+.menu-icon {
+  width: 20px;
+}
+.cart-icon {
+    height: 20px;
+    width: 90%;
+}
+.navbar-list {
+    gap: 30px;
+}
+.navbar-list a {
+    font-size: 14px;
+}
+
+#hero {
+  gap: 50px;
+}
+.hero-info h1 {
+  font-size: 16px; 
+}
+.hero-info p {
+  font-size: 12px;
+}
+.hero-card-info h3 {
+  font-size: 12px;
+}  
+
+  .hero-card-info h3 {
+    font-size: 10px;
+  }  
+  .container img {
+    width: 50px;
+  }
+  .hero-card {
+    height: 150px;
+    padding: 15px;
+    width: 80%;
+  }
+
+  .card-servicios-container {
+    gap: 20px;
+  }
+  
+  .card-servicios {
+    padding: 20px;
+    gap: 20px;
+    width: 200px;
+    height: 200px;
+  }
+  .card-servicios img {
+    width: 50px;
+    height: 50px;
+  }
+  .card-servicios p {
+    font-size: 12px;
+  }
+  
+  .card-servicios h4 {
+    font-size: 16px;
+  }
+
+  
+ 
+  .offer-cards img {
+    width: 40%;
+  }
+  .offer-cards {
+    padding: 20px;
+    gap: 10px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .container-offers {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+  }
+  
+  #info-servicios h2 {
+    font-size: 14px;
+  }
+  #products h3 {
+    font-size: 14px;
+  }
+
+  .info-prod p {
+    font-size: 10px;
+  }
+  .info-prod span {
+    font-size: 10px;
+  }
+  .price {
+    font-size: 12px;
+  }
+
+
+  #footer {
+    gap: 10px;
+    padding: 20px 10px;
+  }
+  .container-footer {
+    gap: 30px;
+    padding: 10px;
+  }
+  #footer h5 {
+    font-size: 8px;
+    font-weight: 400;
+  }
+  
+  .titulo-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .titulo-footer p {
+    font-size: 6px;
+  }
+  .contact p {
+    font-size: 6px;
+    font-weight: 300;
+  }
+  
+  .contact img {
+    width: 15px;
+  }
+  .redes img, 
+  .wsp img{
+  width: 20px;
+ }
+
+}
+
+
+
 
 
