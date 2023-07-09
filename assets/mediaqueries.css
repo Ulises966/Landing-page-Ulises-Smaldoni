@@ -265,7 +265,7 @@
   .container-offers {
     display: flex;
     flex-direction: column;
-    padding: 20px 20px;
+    padding: 30px 30px;
     gap: 5px;
     justify-content: center;
     align-items: center;
