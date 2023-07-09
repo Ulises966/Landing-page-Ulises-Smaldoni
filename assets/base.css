@@ -9,7 +9,7 @@
   list-style-type: none;
 }
 :root {
-  --background: linear-gradient(#ffffff, #ffffe2); 
+  --background: #ffffe2; 
   
   --navcolor: #FFFDD0;
   --textnav: #00563B;
@@ -17,10 +17,10 @@
   --text-tittle: #00563B;
   --button: #6F00FF;
   --textbutton: #ffffff;
-  --bgcardservicios: #e5ffd7;
   --text-service: green;
   --bg-footer: #ffffe2;
   --text-footer: #848c92;
-  --bg-card-prod: #ffffec;
+  --bg-card-prod: #e5ffd7;
   --text-price: rgb(0, 151, 0);
+  --bg-menu-toggle: #fff2bcee; 
 }

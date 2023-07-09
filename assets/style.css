@@ -2,7 +2,8 @@
 
 header {
   background: var(--navcolor);
-  display: flex;  
+  display: flex; 
+  flex-direction: row; 
   justify-content: space-between;
   width: 100%;
   align-items: center;
@@ -11,6 +12,7 @@ header {
   position: fixed;
   top: 0;
   z-index: 2;
+  border-radius: 16px;
   box-shadow: rgba(151, 151, 151, 0.25) 0px 15px 25px, rgba(151, 151, 151, 0.25) 0px 5px 10px;
 }
 
@@ -19,7 +21,7 @@ header {
 }
 .cart-icon {
   height: 40px;
-  width: 100%;
+  width: 40px;
   cursor: pointer;
 }
 
@@ -47,6 +49,14 @@ header {
   font-weight:400;
   font-size: 18px;
 }
+
+ /* navbar menu hamburguesa stilo  */
+
+ .menu-label, 
+ #menu-toggle {
+  display: none;
+ }
+
 
 /* stilo de seccion 1 y hero cards mas info  */
 
@@ -113,7 +123,7 @@ main {
   flex-direction: row;
   align-items: center;
   padding: 20px;
-  width: 50%;
+  width: 40%;
   height: 300px;
   gap: 30px;
   background-color: var(--bgcard);
@@ -132,7 +142,7 @@ main {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 500;
   color: var(--text-service);
 }
@@ -176,7 +186,6 @@ main {
 }
 
 .card-servicios {
-  background: var(--bgcardservicios);
   border-radius: 16px;
   padding: 30px;
   display: flex;
@@ -187,7 +196,7 @@ main {
   text-align: center;
   width: 300px;
   height: 300px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .card-servicios img {
   width: 80px;
@@ -231,7 +240,7 @@ main {
   justify-content: center;
   align-items: center;
   border-radius: 16px;
-  box-shadow: rgb(198, 255, 198) 0px 48px 100px 0px inset;
+  box-shadow: rgba(150, 150, 150, 0.3) 0px 30px 60px -12px inset, rgba(150, 150, 150, 0.3) 0px 18px 36px -18px inset;
 }
 
 
