@@ -261,16 +261,21 @@
     width: 50%;
   }
   .offer-cards {
-    padding: 20px;
+    padding: 10px;
     gap: 10px;
     width: 200px;
     height: 200px;
   }
 
+  .description-prod {
+    gap: 15px;
+    padding: 0px;
+  }
+
   .container-offers {
     display: flex;
     flex-direction: column;
-    padding: 30px 30px;
+    padding: 20px;
     gap: 10px;
     justify-content: center;
     align-items: center;
