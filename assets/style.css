@@ -222,6 +222,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 1200px;
   padding: 100px 30px;
   gap: 70px;
 }
@@ -233,7 +234,6 @@ main {
 
 .container-offers {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   padding: 70px 70px;
   gap: 30px;
@@ -301,7 +301,6 @@ main {
   justify-content: center;
   gap: 50px;
   background-color: var(--bg-footer);
-  width: 100%;
   padding: 40px 30px;
   color: var(--text-footer);
   box-shadow: rgba(151, 151, 151, 0.25) 0px 30px 60px -12px inset, rgba(151, 151, 151, 0.25) 0px 18px 36px -18px inset;
@@ -312,13 +311,15 @@ main {
   justify-content: center;
   flex-direction: row;
   align-items: center;
-  gap: 150px;
+  max-width: 1200px;
+  gap: 130px;
   padding: 10px 30px;
   max-width: 1200px;
 
 }
 
 #footer h5 {
+  text-align: center;
   font-size: 18px;
   font-weight: 400;
 }
@@ -360,6 +361,8 @@ main {
 
 .info-redes {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   gap: 15px;
 }
