@@ -187,14 +187,17 @@
 @media (max-width: 576px) {
 
   .logo {
-    height: 70%;
+    height: 50%;
 }
 .menu-icon {
-  width: 30px;
+  width: 25px;
 }
 .cart-icon {
-    height: 30px;
-    width: 90%;
+    height: 25px;
+    width: 60%;
+}
+.navbar {
+  gap: 50px;
 }
 .navbar-list {
     gap: 30px;
@@ -260,14 +263,14 @@
   .offer-cards {
     padding: 20px;
     gap: 10px;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
   }
 
   .container-offers {
     display: flex;
     flex-direction: column;
-    padding: 60px 60px;
+    padding: 30px 30px;
     gap: 10px;
     justify-content: center;
     align-items: center;
