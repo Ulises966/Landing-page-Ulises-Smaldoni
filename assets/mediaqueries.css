@@ -268,7 +268,7 @@
   }
 
   .description-prod {
-    gap: 15px;
+    gap: 5px;
     padding: 0px;
   }
 
@@ -296,7 +296,7 @@
     font-size: 12px;
   }
   .price {
-    font-size: 14px;
+    font-size: 12px;
   }
 
 
