@@ -179,6 +179,9 @@
     width: 300px;
     height: 300px;
   }
+  .description-prod {
+    gap: 15px;
+  }
   .container-footer {
     gap: 30px;
   }
